@@ -711,10 +711,9 @@ h3 {
 }
 
 .game-container {
-    box-align: center;
     display: inline-flex;
     flex-flow: column wrap;
-    width: 80%;
+    width: 90%;
     margin: 8% auto;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -724,11 +723,21 @@ h3 {
     box-shadow: 5px 5px 5px 2px rgb(24, 26, 26);
     line-height: 1.5;
     text-align: center;
-    justify-content:center;
-    align-items:center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.game {
+    margin: auto;
+    padding: 2px;
+    display: block;
+    width: 100%;
 }
 
 .game-canvas {
+    margin: auto;
+    padding: 2px;
+    display: block;
     border: 2px solid black;
     /*background-color: rgb(198, 162, 117);*/
     background-image: url(./images/mudlark/canvas1.png);
@@ -742,6 +751,8 @@ h3 {
 
 .game-intro-screen {
     background-color:white;
+    margin: auto;
+    display: block;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     border-radius:10px;
@@ -758,6 +769,7 @@ h3 {
     width: 900px;
     height: 433px;
     display:none;
+    margin: auto;
 }
 
 .items-text-list {
